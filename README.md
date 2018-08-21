@@ -15,3 +15,8 @@
  -n -> stands for match the whole word.
  / stands for starting at the root of your machine
 ```
+
+# other swiches
+```
+grep -r "some text here" search text in each file folder  
+```
