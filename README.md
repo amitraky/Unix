@@ -20,3 +20,7 @@
 ```
 grep -r "some text here" search text in each file folder  
 ```
+# file and folder permission
+```
+sudo chmod -R ugo+rw /DATA/SHARE
+```
