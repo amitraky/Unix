@@ -24,3 +24,21 @@ grep -r "some text here" search text in each file folder
 ```
 sudo chmod -R ugo+rw /DATA/SHARE
 ```
+
+
+# install require application
+
+sudo su
+apt-get install php
+apt-get install apache2
+apt-get install mysql-server mysql-client
+apt-get install phpmyadmin
+apt-get install python
+apt-get install python-mysqldb 
+
+ln -s /etc/phpmyadmin/apache.conf
+ln -s /etc/apache2/conf-available/phpmyadmin.conf
+
+service apache2 restart 
+
+[install reference](https://askubuntu.com/questions/451708/php-script-not-executing-on-apache-server)
