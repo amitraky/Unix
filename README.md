@@ -27,7 +27,7 @@ sudo chmod -R ugo+rw /DATA/SHARE
 
 
 # install require application
-
+```
 sudo su
 apt-get install php
 apt-get install apache2
@@ -40,5 +40,5 @@ ln -s /etc/phpmyadmin/apache.conf
 ln -s /etc/apache2/conf-available/phpmyadmin.conf
 
 service apache2 restart 
-
-[install reference](https://askubuntu.com/questions/451708/php-script-not-executing-on-apache-server)
+``` 
+- [install reference](https://askubuntu.com/questions/451708/php-script-not-executing-on-apache-server)
